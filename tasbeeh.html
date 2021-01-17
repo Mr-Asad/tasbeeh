@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/tasbeeh.css">
+    <title>Tasbeeh</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div class="web-name-div" id="web-name-div">
+        <img src="./images/tasbeeh.png" alt="">
+    </div>
+
+    <button onclick="increment()" class="count-btn" id="count-btn"><span id="count">0</span></button>
+
+    <button id="mini" class="counts-time-btn"><span>0</span></button>
+    
+    <div id="switch_3_ways_v2" class="switch_3_ways_v2">
+        <div id="monthly2" class="switch2 monthly" onclick="change_period2('monthly')">33</div>
+        <div id="semester2" class="switch2 semester" onclick="change_period2('semester')">100</div>
+        <div id="annual2" class="switch2 annual" style="font-size: 35px;" onclick="change_period2('annual')">∞</div>
+         <div id="selector" class="selector"></div>
+    </div>
+
+    <button onclick="clickfunction()" id="reset-btn" class="reset-btn"><i class="fas fa-sync-alt reset rotate"></i></button>
+
+
+    <script src="./js/tasbeeh.js"></script>
+</body>
+</html>
